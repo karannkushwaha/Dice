@@ -28,9 +28,9 @@ const GamePlay = () => {
     setCurrentDice(randomNumber);
 
     if (randomNumber === selectedNum) {
-      setScore(score + 1);
+      setScore(score + 2);
     } else {
-      setScore(score - 1);
+      setScore(score - 2);
     }
     setSelectedNum(undefined);
   };
